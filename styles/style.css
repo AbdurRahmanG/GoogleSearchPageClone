@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: 1px solid blue underline;
+}
+
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+#nav a{
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.profileImage{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 20px;
+
+}
+
+.headerBox{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(110, 110, 110);
+}
+
+.middleSection{
+    margin-top: 3%;
+}
+
+
+.middleLogo{
+    text-align: center;
+}
+
+.searchBarContainer{
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 0;
+    border-radius: 50px;
+    border: 1px solid rgb(202, 202, 202);
+    
+}
+
+.searchBarContainer:hover{
+    box-shadow: 0 0 10px 1px rgb(233, 233, 233);
+}
+
+.searchBar{
+    text-align: center;
+    outline: 0;
+    width: 85%;
+    height: 40px;
+    border: none;
+}
+
+.searchSymbol{
+    width: 20px;
+    margin: 10px;
+
+}
+
+.micSymbol{
+    width: 20px;
+    margin: 10px;
+    
+}
+
+.middleButtonsContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    
+}
+
+.middleButton{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 13px 18px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(60, 60, 60);
+    background-color: #F8F9FA;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+.belowMiddle{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.footerContainer{
+    margin-top: 11%;
+
+}
+
+.footerCountry{
+    width: 100%;
+    background-color: #F2F2F2;
+    border-bottom: 1px solid #DADCE0;
+
+}
+
+.footerLeftRightContainer{
+    display: flex;
+    background-color: #F2F2F2;
+
+}
+
+.footerButtonsLeft{
+    margin-left: 10px;
+
+
+}
+
+.footerButtonsRight{
+    margin-left: 48%;
+
+
+}
+
+button{
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    color: #818181;
+}
